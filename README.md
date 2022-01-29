@@ -20,7 +20,9 @@ conda activate YOUR_ENV_NAME
 
 
 Usage:
-DeepNeo is a two-part program : (1) predicting peptide-MHC binding (mhc) (2) predicting TCR reactivity (tcr) of the pMHC pair.
+DeepNeo is a two-part program : 
+(1) predicting peptide-MHC binding (mhc)
+(2) predicting TCR reactivity (tcr) of the pMHC pair.
 In each part, predictions can be made with following command lines.
 
 python make_dataset.py INPUT.dat MHC_CLASS
@@ -38,13 +40,17 @@ Input file:
 Three column tab-delimited file containing HLA allele, peptide sequence, and 0.
 
 For example:
+
 HLA-A-0201	QISLFWKNL	0
 
 HLA-B-0701	QISLFWKNL	0
 
 Output file:
+
 Three column tab-delimited file containing HLA allele, peptide sequence, and predicted binding(mhc)/immunogenicity(tcr) value.
 
 For example:
+
 HLA-A-0201	QISLFWKNL	0.
+
 HLA-B-0701	QISLFWKNL	0
