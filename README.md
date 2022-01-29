@@ -8,10 +8,10 @@ DeepNeo uses specific version of Theano(0.9) and requires GPU.
 
 1) Recommended : Copy working environment to your miniconda/anaconda folder
 
-- Download DeepNeo_environment.tar.gz from github
-- tar -zxvf DeepNeo_environment.tar.gz
-- cp -r DeepNeo_environment /home/YOUR_NAME/miniconda2/envs/
-- conda activate DeepNeo_environment
+- Download deepneo_environment.tar.gz from github
+- tar -zxvf deepneo_environment.tar.gz
+- cp -r deepneo_environment /home/YOUR_NAME/miniconda2/envs/
+- conda activate deepneo_environment
 
 2) You can obtain working environment by installing all the packages provided in the DeepNeo_conda_environment.
 
@@ -43,7 +43,7 @@ For example:
 
 HLA-A-0201	QISLFWKNL	0
 
-HLA-B-0701	QISLFWKNL	0
+HLA-B-0702	QISLFWKNL	0
 
 Output file:
 
@@ -51,6 +51,6 @@ Three column tab-delimited file containing HLA allele, peptide sequence, and pre
 
 For example:
 
-HLA-A-0201	QISLFWKNL	0.
+HLA-A-0201	QISLFWKNL	0.3547
 
-HLA-B-0701	QISLFWKNL	0
+HLA-B-0702	QISLFWKNL	0.3845
