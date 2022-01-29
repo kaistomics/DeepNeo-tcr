@@ -8,7 +8,7 @@ DeepNeo uses specific version of Theano(0.9) and requires GPU.
 
 1) Recommended : Copy working environment to your miniconda/anaconda folder
 
-- Download deepneo_environment.tar.gz from github
+- wget http://143.248.31.34/~omics/data/DeepNeo/deepneo_environment.tar.gz
 - tar -zxvf deepneo_environment.tar.gz
 - cp -r deepneo_environment /home/YOUR_NAME/miniconda2/envs/
 - conda activate deepneo_environment
