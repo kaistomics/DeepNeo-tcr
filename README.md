@@ -1,4 +1,4 @@
-# DeepNeo-for-the-identification-of-immunogenic-neoepitopes
+# DeepNeo - identification of immunogenic neoepitopes
 
 
 DeepNeo is a tool for predicting the immunogenicity of peptide-MHC pairs.
