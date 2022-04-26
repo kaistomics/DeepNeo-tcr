@@ -29,13 +29,13 @@ python make_dataset.py INPUT.dat MHC_CLASS INPUT.dat.pkl.gz
 python run_cnn.py MHC_CLASS PREDICTION_TYPE INPUT.dat.pkl.gz OUTPUT.txt
 
 For example:
-
+'''
 python make_dataset.py class1_input.dat class1 class1_input.dat.pkl.gz
 
 python run_cnn.py class1 mhc class1_input.dat.pkl.gz class1_mhcbinding_output.txt 
 
 python run_cnn.py class1 tcr class1_input.dat.pkl.gz class1_immunogenicity_output.txt 
-
+'''
 Input file:
 Three column tab-delimited file containing HLA allele, peptide sequence, and 0.
 
