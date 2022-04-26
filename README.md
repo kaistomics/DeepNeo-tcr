@@ -61,3 +61,5 @@ For example:
 HLA-A-0201	QISLFWKNL	0.3547
 HLA-B-0702	QISLFWKNL	0.3845
 ```
+
+We recommend using threshold above 0.5 for class I and 0.7 for class II for both MHC binding and immunogenicity prediction.
