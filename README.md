@@ -2,7 +2,9 @@
 
 
 DeepNeo is a tool for predicting the immunogenicity of peptide-MHC pairs.
-Using convolution neural network(CNN), we built a model that captures local properties of amino acid interaction with >36,000 immunogenic pMHC pairs. DeepNeo supports prediction for two species, human and mouse, for both MHC class I and MHC class II.
+
+Neoantigen, or peptides containing somatic mutations that are presented by MHC molecules, are known to be important in immunity. However, most neoantigen predicting tools only consider binding of peptide and MHC molecule regardless of T cell reactivity. Although MHC binding is necessary, it is not sufficient to elicit T cell response. To bridge this gap, we built a model that captures structural properties of immunogenic pMHC pairs using preferential amino acid interaction. DeepNeo supports prediction for two species, human and mouse, for both MHC class I and MHC class II.
+
 DeepNeo takes 9mer and 15mer for class I and II epitopes respectively.
 
 Installation : 
