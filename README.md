@@ -24,9 +24,13 @@ conda activate YOUR_ENV_NAME
 ```
 
 Usage:
-DeepNeo is a two-part program : 
+
+DeepNeo is a two-part program :
+
 (1) predicting peptide-MHC binding (mhc)
+
 (2) predicting TCR reactivity (tcr) of the pMHC pair.
+
 In each part, predictions can be made with following command lines.
 ```
 python make_dataset.py INPUT.dat MHC_CLASS INPUT.dat.pkl.gz
