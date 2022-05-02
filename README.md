@@ -1,7 +1,7 @@
 # DeepNeo - identification of immunogenic neoepitopes
 
 
-DeepNeo is a tool for predicting the immunogenicity of peptide-MHC pairs.
+## DeepNeo is a tool for predicting the immunogenicity of peptide-MHC pairs.
 
 Neoantigen, or peptides containing somatic mutations that are presented by MHC molecules, are known to be important in immunity. However, most neoantigen predicting tools only consider binding of peptide and MHC molecule regardless of T cell reactivity. Although MHC binding is necessary, it is not sufficient to elicit T cell response. To bridge this gap, we built a model that captures structural properties of immunogenic pMHC pairs using preferential amino acid interaction. DeepNeo supports prediction for two species, human and mouse, for both MHC class I and MHC class II.
 
@@ -9,7 +9,7 @@ Neoantigen, or peptides containing somatic mutations that are presented by MHC m
 
 DeepNeo takes 9mer and 15mer for class I and II epitopes respectively. Types of MHC molecules supported by DeepNeo can be found in Data/MHC_molecule_list.txt. Please make sure that input MHC molecule is formatted in same way as listed.
 
-Installation : 
+## Installation : 
 DeepNeo uses specific version of Theano(1.0.4) and requires GPU.
 
 1) Recommended : Copy working environment to your miniconda/anaconda folder
@@ -25,7 +25,7 @@ conda env create -f DeepNeo_conda_environment.yml -n YOUR_ENV_NAME
 conda activate YOUR_ENV_NAME
 ```
 
-Usage:
+## Usage:
 
 DeepNeo is a two-part program :
 
