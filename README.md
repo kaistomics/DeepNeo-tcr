@@ -27,7 +27,7 @@ conda activate YOUR_ENV_NAME
 
 ## Usage:
 
-DeepNeo is a two-part program :
+**DeepNeo is a two-part program :**
 
 (1) predicting peptide-MHC binding (mhc)
 
