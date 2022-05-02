@@ -7,7 +7,11 @@ Neoantigen, or peptides containing somatic mutations that are presented by MHC m
 
 ![Alt text](model/DeepNeo-tcr_Model_construction.png?raw=true "DeepNeo Model")
 
-DeepNeo takes 9mer and 15mer for class I and II epitopes respectively. Types of MHC molecules supported by DeepNeo can be found in Data/MHC_molecule_list.txt. Please make sure that input MHC molecule is formatted in same way as listed.
+DeepNeo takes 9mer and 15mer for class I and II epitopes respectively. Types of MHC molecules supported by DeepNeo can be found in Data/MHC_molecule_list.txt. 
+
+Please make sure that input MHC molecule is formatted in same way as listed.
+
+DeepNeo is currently undergoing peer-review process for publication.
 
 ## Installation : 
 DeepNeo uses specific version of Theano(1.0.4) and requires GPU.
